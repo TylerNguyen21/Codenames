@@ -4,7 +4,8 @@ class App extends React.Component {
   constructor(props) {
     super(props),
     this.state = {
-
+      board: [],
+      turn: 1,
     }
   }
 
