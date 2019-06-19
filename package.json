@@ -1,0 +1,35 @@
+{
+  "name": "codenames",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerNguyen21/Codenames.git"
+  },
+  "author": "Tyler Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerNguyen21/Codenames/issues"
+  },
+  "homepage": "https://github.com/TylerNguyen21/Codenames#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.8.6"
+  }
+}
